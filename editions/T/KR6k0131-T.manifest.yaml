@@ -1,0 +1,72 @@
+canonical_identifier: bkk:krp/KR6k0131/T/v1
+canonical_location: https://kanripo.org/bkk/KR6k0131/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 四分律比丘含注戒本
+  identifiers:
+    krp: KR6k0131
+    cbeta: T40n1806
+    cbeta_old_id: T40n1806
+    authorityid: CA0002789
+    json_key: T1806
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T40/T40n1806.xml
+    old_id: T40n1806
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0131_000-T.yaml, hash: 'sha256:413d0057946ef2fe46deabf8d638ff8246879988dff4e72012544d9be2696c86'}
+  - {seq: 1, filename: KR6k0131_001-T.yaml, hash: 'sha256:5818939a3bd8fff6e5d265923f7a52d7db5a70aa8180830cdadc6e6ac4a36bfc'}
+  - {seq: 2, filename: KR6k0131_002-T.yaml, hash: 'sha256:50d31657bbf728fca51ce521219c7a928a386996494a0044ff4a173847391493'}
+  - {seq: 3, filename: KR6k0131_003-T.yaml, hash: 'sha256:2f3f08d0c295b2e6b00ae3e2db5cf09ffd53f1c193e56c92824c9b437f09c933'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0131_000-T.markers.yaml, hash: 'sha256:a500617220fc7c5a5e4ac5618ddf1c26df6241dde7d3b8249f6e206b0bd7dbdb'}
+  - {seq: 1, role: markers, filename: assets/KR6k0131_001-T.markers.yaml, hash: 'sha256:dd3a2c4757a54a098516a01ba46b1862cffa3112918366cdc10dd9d138015651'}
+  - {seq: 2, role: markers, filename: assets/KR6k0131_002-T.markers.yaml, hash: 'sha256:9fed231e69a5dc20779ebdcf3a4fdaa0cb74de74adead96f96e2af74cb5ae978'}
+  - {seq: 3, role: markers, filename: assets/KR6k0131_003-T.markers.yaml, hash: 'sha256:1dbaad1bf7b874350110f1a1230cd58bc63a30802109b243b14da0bbd5bd500c'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6k0131_T_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 四分律比丘含注戒本序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0131_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 16376
+  label: 四分律比丘含注戒本上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6k0131_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 16131
+  label: 四分律比丘含注戒本中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6k0131_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 8757
+  label: 四分律比丘含注戒本下
+  type: juan
+  level: 1
+hash: sha256:d4f480f457402f2f33d8ce2f283437ade48914a40526f7c1cffc1117460b70dd

@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6k0131/v1
 canonical_location: https://kanripo.org/bkk/KR6k0131/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 四分律比丘含注戒本
   identifiers:
@@ -24,15 +24,15 @@ editions:
 - short: T
 assets:
   parts:
-  - {seq: 0, filename: KR6k0131_000.yaml, hash: 'sha256:413d0057946ef2fe46deabf8d638ff8246879988dff4e72012544d9be2696c86'}
-  - {seq: 1, filename: KR6k0131_001.yaml, hash: 'sha256:5818939a3bd8fff6e5d265923f7a52d7db5a70aa8180830cdadc6e6ac4a36bfc'}
-  - {seq: 2, filename: KR6k0131_002.yaml, hash: 'sha256:50d31657bbf728fca51ce521219c7a928a386996494a0044ff4a173847391493'}
-  - {seq: 3, filename: KR6k0131_003.yaml, hash: 'sha256:2f3f08d0c295b2e6b00ae3e2db5cf09ffd53f1c193e56c92824c9b437f09c933'}
+  - {seq: 0, filename: KR6k0131_000.yaml, hash: 'sha256:c30bb3333e4e13b08fbdd983f1a1ea753b127d2881a57cd4307e0c06e7c856f9'}
+  - {seq: 1, filename: KR6k0131_001.yaml, hash: 'sha256:fa2ffa6642d65f0dfcab38ef1f9445b6ebad0bdd60faf94bb015b130414c46ea'}
+  - {seq: 2, filename: KR6k0131_002.yaml, hash: 'sha256:dc0d159504286e21f48aed0ae304941e284e4260ac41d810e4ea3c193d0d2afa'}
+  - {seq: 3, filename: KR6k0131_003.yaml, hash: 'sha256:958d701abcc15edec4dc33467c2aa53101e3739cf610dcb3ff13716cba8b7ff2'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6k0131_000.markers.yaml, hash: 'sha256:6562a1976b64ad2a703344d3df8216a7aeeb840bcc2d71a087bced2bd059b27f'}
-  - {seq: 1, role: markers, filename: assets/KR6k0131_001.markers.yaml, hash: 'sha256:eaa8be8062497bd8203f9e28ab20a683050cdf17346b90bf0be64e11d0cf0d80'}
-  - {seq: 2, role: markers, filename: assets/KR6k0131_002.markers.yaml, hash: 'sha256:85ec78425281012ca2acd4f1460d717d21fe4c04638cf6af70b71cee7b1f2de7'}
-  - {seq: 3, role: markers, filename: assets/KR6k0131_003.markers.yaml, hash: 'sha256:d522222700ca15ab7bee2aecb0d7aadd78b171fc5d9f9b94c443741ada710844'}
+  - {seq: 0, role: markers, filename: assets/KR6k0131_000.markers.yaml, hash: 'sha256:04bc03dadff8109df5d969e4e24a7b175f2b9d005cf6bf8690b0949a2664c29c'}
+  - {seq: 1, role: markers, filename: assets/KR6k0131_001.markers.yaml, hash: 'sha256:e11dd9e51772fa1478a800fde060cbbb275dd89e2124eaa6c8555f60b768a352'}
+  - {seq: 2, role: markers, filename: assets/KR6k0131_002.markers.yaml, hash: 'sha256:119a5cc6900fb321a8ac61df11c6115c0e16d0da8f4118e3e285ebf33ee71f85'}
+  - {seq: 3, role: markers, filename: assets/KR6k0131_003.markers.yaml, hash: 'sha256:95fac0856d0834a4f8e3eb28a14acaea2186a1f8a39e9b76065de82605ff5e3e'}
 table_of_contents:
 - ref:
     seq: 0
@@ -74,4 +74,7 @@ table_of_contents:
   label: 四分律比丘含注戒本下
   type: juan
   level: 1
-hash: sha256:301af0e314c162b5a61bd6e025185d7e314c68e25a4869357c0538dde36300bc
+hash: sha256:3abcf3c5857f708e6e5f5ca7cb5441c1f577c081c766f0fe3bea5fbd32124cc8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
